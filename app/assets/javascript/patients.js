@@ -829,7 +829,7 @@ if (cpisAltName == "Amelia MILLER") {
   $('.name-dob-floater').html(cpisAltName + " | 16-Dec-2003");
   $('.mobile-nav-patient-details').html(cpisAltName + " <br/> 16-Dec-2003");
 } else if (!patientName) {
-  $('.patient-banner-name, .card-content-name').text("Mr William SHAKESPEARE");
+  $('.patient-banner-name, .card-content-name').text("Ms Vivien CLARE");
   $('.patient-banner-dob, .card-content-detail-dob').text("30-Jan-1970");
   $('.patient-banner-nhs-no, .card-content-detail-nhs-no').text("123 456 7890");
   if (!patientAddress) {
@@ -843,7 +843,7 @@ if (cpisAltName == "Amelia MILLER") {
   $('.patient-banner-age').text("51 years old");
   $('.card-content-detail-pob').text("Stratford-upon-Avon");
   $('.name-dob-floater').html("Ms Vivien CLARE  | 30-Jan-1970");
-  $('.mobile-nav-patient-details').html("Mr William SHAKESPEARE <br/> Date of birth: 30-Jan-1970");
+  $('.mobile-nav-patient-details').html("Ms Vivien CLARE <br/> Date of birth: 30-Jan-1970");
 } else if (patientName == "Dr William TELL") {
   $('.patient-banner-name, .card-content-name').text(patientName);
   $('.patient-banner-dob, .card-content-detail-dob').text("30-Jan-1970");
