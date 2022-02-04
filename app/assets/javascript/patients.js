@@ -842,7 +842,7 @@ if (cpisAltName == "Amelia MILLER") {
   $('.patient-banner-gender, .card-content-detail-gender').text("Male");
   $('.patient-banner-age').text("51 years old");
   $('.card-content-detail-pob').text("Stratford-upon-Avon");
-  $('.name-dob-floater').html("Mr William SHAKESPEARE | 30-Jan-1970");
+  $('.name-dob-floater').html("Ms Vivien CLARE  | 30-Jan-1970");
   $('.mobile-nav-patient-details').html("Mr William SHAKESPEARE <br/> Date of birth: 30-Jan-1970");
 } else if (patientName == "Dr William TELL") {
   $('.patient-banner-name, .card-content-name').text(patientName);
