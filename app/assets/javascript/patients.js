@@ -809,7 +809,7 @@ var cpisAltName;
 if (window.location.href.indexOf("cpis") > -1 || window.location.href.indexOf("fgm") > -1) {
   cpisAltName = localStorage.altName;
 } else {
-  cpisAltName = "";
+  cpisAltName = "Amelia MILLER";
 }
 
 
@@ -819,19 +819,19 @@ var patientAge = moment(new Date()).diff(moment(parsedDob, "DD-MM-YYYY"), 'years
 
 if (cpisAltName == "Amelia MILLER") {
   $('.patient-banner-name, .card-content-name').text(cpisAltName);
-  $('.patient-banner-dob, .card-content-detail-dob').text("16-Dec-2003");
+  $('.patient-banner-dob, .card-content-detail-dob').text("16-Dec-2013");
   $('.patient-banner-nhs-no, .card-content-detail-nhs-no').text("123 456 7890");
   $('.patient-banner-address').text("1 Town Street, Leeds, West Yorkshire, LS8 2CD");
   $('.patient-banner-gender, .card-content-detail-gender').text("Female");
-  $('.patient-banner-age').text("16 years old");
+  $('.patient-banner-age').text("9 years old");
   $('.card-content-detail-pob').text("Leeds");
   $('.card-content-detail-address').html("1 Town Street, Leeds, West Yorkshire, LS8 2CD");
   $('.name-dob-floater').html(cpisAltName + " | 16-Dec-2003");
-  $('.mobile-nav-patient-details').html(cpisAltName + " <br/> 16-Dec-2003");
+  $('.mobile-nav-patient-details').html(cpisAltName + " <br/> 16-Dec-2013");
 } else if (!patientName) {
   $('.patient-banner-name, .card-content-name').text("Ms Vivien CLARE");
-  $('.patient-banner-dob, .card-content-detail-dob').text("30-Jan-1970");
-  $('.patient-banner-nhs-no, .card-content-detail-nhs-no').text("123 456 7890");
+  $('.patient-banner-dob, .card-content-detail-dob').text("11-Mar-2013");
+  $('.patient-banner-nhs-no, .card-content-detail-nhs-no').text("965 133 6778");
   if (!patientAddress) {
     $('.patient-banner-address').text("1 Town Street, Stratford-upon-Avon, Warwickshire, AB1 2CD");
     $('.card-content-detail-address').html("1 Town Street, Stratford-upon-Avon, Warwickshire, AB1 2CD");
@@ -842,8 +842,8 @@ if (cpisAltName == "Amelia MILLER") {
   $('.patient-banner-gender, .card-content-detail-gender').text("Male");
   $('.patient-banner-age').text("51 years old");
   $('.card-content-detail-pob').text("Stratford-upon-Avon");
-  $('.name-dob-floater').html("Ms Vivien CLARE  | 30-Jan-1970");
-  $('.mobile-nav-patient-details').html("Ms Vivien CLARE <br/> Date of birth: 30-Jan-1970");
+  $('.name-dob-floater').html("Mr William SHAKESPEARE | 30-Jan-1970");
+  $('.mobile-nav-patient-details').html("Mr William SHAKESPEARE <br/> Date of birth: 30-Jan-1970");
 } else if (patientName == "Dr William TELL") {
   $('.patient-banner-name, .card-content-name').text(patientName);
   $('.patient-banner-dob, .card-content-detail-dob').text("30-Jan-1970");
